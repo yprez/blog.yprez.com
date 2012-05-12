@@ -13,7 +13,7 @@ SOCIAL = (
     ('LinkedIn', 'http://il.linkedin.com/in/yprez'),
 )
 
-DEFAULT_PAGINATION = True
+DEFAULT_PAGINATION = 5
 THEME = 'themes/tuxlite_tbs'
 
 OUTPUT_PATH = '.'
