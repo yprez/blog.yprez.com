@@ -14,7 +14,7 @@ SOCIAL = (
 )
 
 DEFAULT_PAGINATION = True
-THEME = 'notmyidea'
+THEME = 'themes/tuxlite_tbs'
 
 OUTPUT_PATH = '.'
 TWITTER_USERNAME = 'yprez'
