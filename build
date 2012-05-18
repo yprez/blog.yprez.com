@@ -1,2 +1,2 @@
 #!/bin/sh
-pelican . -o output -s settings.py
+pelican . --output=output --settings=settings.py
