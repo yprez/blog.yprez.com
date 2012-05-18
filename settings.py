@@ -1,6 +1,9 @@
 AUTHOR = u'Yuri Prezument'
-SITENAME = u'My Awesome Website!'
+SITENAME = u'Yuri Prezument'
 SITEURL = '/'
+
+#GITHUB_URL = 'https://github.com/yprez/yprez.github.com'
+
 
 TIMEZONE = 'Etc/UTC'
 
@@ -12,6 +15,7 @@ SOCIAL = (
     ('Twitter', 'https://twitter.com/yprez'),
     ('LinkedIn', 'http://il.linkedin.com/in/yprez'),
 )
+TAG_FEED = 'feeds/%s.atom.xml'
 
 DEFAULT_PAGINATION = 5
 THEME = 'themes/tuxlite_tbs'
