@@ -11,14 +11,25 @@ I might write migth write some Python and software dev related posts sometime
 soon.
 
 This blog is powered by `Pelican`_, the posts are written in
-`reStructuredText`_ and it's hosted on `Github Pages`_.
+reStructuredText and it's hosted on `Github Pages`_.
 
-I'm keeping the `source repository`_ separate from the
-`Github Pages repository`_ where the generated files are stored.
+I'm keeping the `source repository`_ separate from the `generated files`_
+repository. Commiting to the second when it's ready to update.
+
+Setting up:
+
+.. code-block:: bash
+
+    git submodule add git@github.com:yprez/yprez.github.com.git output
+    pelican . --output=output --settings=settings.py
+
+    cd output
+    git add .
+    git commit -am"Set up blog"
+    git push
 
 .. _`Pelican`: http://alexis.notmyidea.org/pelican/
-.. _`reStructuredText`: http://docutils.sourceforge.net/rst.html
 .. _`Github Pages`: http://pages.github.com/
 .. _`source repository`: https://github.com/yprez/blog.yprez.com
-.. _`Github Pages repository`: https://github.com/yprez/yprez.github.com
+.. _`generated files`: https://github.com/yprez/yprez.github.com
 
