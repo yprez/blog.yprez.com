@@ -14,7 +14,7 @@ This blog is powered by `Pelican`_, the posts are written in
 reStructuredText and it's hosted on `Github Pages`_.
 
 I'm keeping the `source repository`_ separate from the `generated files`_
-repository. Commiting to the second when it's ready to update.
+repository. Committing to the second when it's ready to update.
 
 Setting up:
 
