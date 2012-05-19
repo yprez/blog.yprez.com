@@ -1,7 +1,7 @@
 Setting Up
 ==========
 
-:date: 2012-05-18 22:00
+:date: 2012-05-19 18:00
 :tags: python, pelican
 :category: General
 
