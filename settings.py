@@ -8,6 +8,7 @@ SITEURL = '/'
 TIMEZONE = 'Etc/UTC'
 
 DEFAULT_LANG = 'en'
+DEFAULT_CATEGORY = 'Blog'
 
 SOCIAL = (
     ('Github', 'https://github.com/yprez'),
