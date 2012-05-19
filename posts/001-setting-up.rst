@@ -7,7 +7,7 @@ Setting Up
 
 I decided to set up this blog mainly as an experiment.
 
-I might write migth write some Python and software dev related posts sometime
+I might write might write some Python and software dev related posts sometime
 soon.
 
 This blog is powered by `Pelican`_, the posts are written in
