@@ -2,13 +2,14 @@ AUTHOR = u'Yuri Prezument'
 SITENAME = u'Yuri Prezument'
 SITEURL = '/'
 
-#GITHUB_URL = 'https://github.com/yprez/yprez.github.com'
-
-
 TIMEZONE = 'Etc/UTC'
 
 DEFAULT_LANG = 'en'
 DEFAULT_CATEGORY = 'Blog'
+DEFAULT_PAGINATION = 5
+THEME = 'themes/tuxlite_tbs'
+
+OUTPUT_PATH = '.'
 
 SOCIAL = (
     ('Github', 'https://github.com/yprez'),
@@ -18,9 +19,7 @@ SOCIAL = (
 )
 TAG_FEED = 'feeds/%s.atom.xml'
 
-DEFAULT_PAGINATION = 5
-THEME = 'themes/tuxlite_tbs'
-
-OUTPUT_PATH = '.'
+DISQUS_SITENAME = 'yprez_blog'
+#GITHUB_URL = 'https://github.com/yprez/blog.yprez.com'
+GOOGLE_ANALYTICS = 'UA-31891245-1'
 TWITTER_USERNAME = 'yprez'
-#GOOGLE_ANALYTICS = '' #TODO: enable
