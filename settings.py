@@ -5,7 +5,7 @@ SITEURL = '/'
 TIMEZONE = 'Etc/UTC'
 
 DEFAULT_LANG = 'en'
-DEFAULT_CATEGORY = 'Blog'
+DEFAULT_CATEGORY = 'General'
 DEFAULT_PAGINATION = 5
 THEME = 'themes/tuxlite_tbs'
 
