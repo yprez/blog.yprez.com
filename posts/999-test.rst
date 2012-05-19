@@ -1,7 +1,7 @@
 Testing stuff
 =============
 
-:date: 2012-12-05 10:20
+:date: 2012-01-01 10:20
 :tags: thats, awesome
 :category: Blog
 :status: draft
