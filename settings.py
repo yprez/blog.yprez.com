@@ -19,7 +19,7 @@ SOCIAL = (
 )
 TAG_FEED = 'feeds/%s.atom.xml'
 
-DISQUS_SITENAME = 'yprez_blog'
+DISQUS_SITENAME = 'yprez'
 #GITHUB_URL = 'https://github.com/yprez/blog.yprez.com'
 GOOGLE_ANALYTICS = 'UA-31891245-1'
 TWITTER_USERNAME = 'yprez'
