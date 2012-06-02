@@ -1,0 +1,30 @@
+{% if TWITTER_WIDGET %}
+<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 30,
+  interval: 30000,
+  width: 270,
+  height: 200,
+  theme: {
+    shell: {
+      background: '#fbfbfb',
+      color: '#022222'
+    },
+    tweets: {
+      background: '#fbfbfb',
+      color: '#333333',
+      links: '#0088cc'
+    }
+  },
+  features: {
+    scrollbar: true,
+    loop: false,
+    live: false,
+    behavior: 'all'
+  }
+}).render().setUser('{{ TWITTER_USERNAME }}').start();
+</script>
+{% endif %}
