@@ -96,7 +96,7 @@ first result in Google for ``"flask gunicorn"`` is a link to the
 
 In conclusion: Bottle was fun, the application was very easy to build, and runs
 incredibly fast. I think that for the next project that requires a
-micro-framework I will use Flask instead. Even if only for the sake of
+microframework I will use Flask instead. Even if just for the sake of
 comparison.
 
 .. _`Bottle`: http://bottlepy.org/
