@@ -23,4 +23,4 @@ DISQUS_SITENAME = 'yprez'
 #GITHUB_URL = 'https://github.com/yprez/blog.yprez.com'
 GOOGLE_ANALYTICS = 'UA-31891245-1'
 TWITTER_USERNAME = 'yprez'
-TWITTER_WIDGET = False
+TWITTER_WIDGET = True
