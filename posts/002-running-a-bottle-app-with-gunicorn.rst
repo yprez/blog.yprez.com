@@ -5,7 +5,7 @@ Running a Bottle app with Gunicorn
 :category: General
 :date: 2012-06-09 19:00
 
-Recently we wrote a simple web tracker at work. Using the `Bottle`_
+Recently I wrote a simple web tracker at work. Using the `Bottle`_
 microframework.
 
 Looking back, maybe I should've used `Flask`_ instead, as I simply don't see
@@ -31,13 +31,13 @@ To switch the server to `Gunicorn`_ replace the last line with:
 
     run(host='localhost', port=8080, server='gunicorn', workers=4)
 
-But want if we want to run it using the ``gunicorn`` executable (to run it with
+But what if we want to run it using the ``gunicorn`` executable (to run it with
 an ``init.d`` script)? Here things became more problematic.
 
-I assumed it would be as simple as simple as running `gunicorn myapp`, but it
+I assumed it would be as simple as simple as running ``gunicorn myapp``, but it
 was still running the app with the default server.
 
-It also turns out that Bottle is completely not Googlable, and searching for
+It also turns out that Bottle is completely not googlable, and searching for
 ``"bottle python gunicorn"`` just returned random crap. After about half an
 hour of digging, the solution turned out to be quite simple... I was missing a
 WSGI "app" object.
@@ -53,11 +53,8 @@ The finished app looks like this:
     def index():
         return '<h1>Hello Bottle!</h1>'
 
-    def run_test_server():
-        run(host='localhost', port=8080)
-
     if __name__ == "__main__":
-        run_test_server()
+        run(host='localhost', port=8080)
 
     app = bottle.default_app()
 
