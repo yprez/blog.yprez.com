@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% block title %}{{ article.title }}{% endblock %}
 {% block content %}
     <div class='article'>
         <div class="content-title">
@@ -9,7 +10,7 @@
         <div>{{ article.content }}</div>
 	
         <hr>
-    	   
+
         <h2>Comments</h2>
 	{% include "twitter.html" %}
 	{% include 'disqus.html' %}
