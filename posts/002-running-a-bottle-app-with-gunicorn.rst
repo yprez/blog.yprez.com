@@ -2,10 +2,8 @@ Running a Bottle app with Gunicorn
 ==================================
 
 :tags: python, bottle, gunicorn
-:category: Blog
-:status: draft
-
-.. :date: 2012-01-01 10:00
+:category: General
+:date: 2012-06-09 19:00
 
 Recently we wrote a simple web tracker at work. Using the `Bottle`_
 microframework.

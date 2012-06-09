@@ -3,7 +3,7 @@ Testing stuff
 
 :date: 2012-01-01 10:20
 :tags: thats, awesome
-:category: Blog
+:category: General
 :status: draft
 
 Here is some source code:
