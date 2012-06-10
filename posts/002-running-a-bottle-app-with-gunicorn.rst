@@ -3,7 +3,7 @@ Running a Bottle app with Gunicorn
 
 :tags: python, bottle, gunicorn
 :category: General
-:date: 2012-06-09 19:00
+:date: 2012-06-10 14:00
 
 Recently I wrote a simple web tracker at work. Using the `Bottle`_
 microframework.
