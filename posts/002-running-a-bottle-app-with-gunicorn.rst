@@ -42,7 +42,7 @@ It also turns out that Bottle is completely not googlable, and searching for
 hour of digging, the solution turned out to be quite simple... I was missing a
 WSGI "app" object.
 
-The finished app looks like this:
+Here's the finished app:
 
 .. code-block:: python
 
