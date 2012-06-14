@@ -7,7 +7,7 @@ TIMEZONE = 'Etc/UTC'
 DEFAULT_LANG = 'en'
 DEFAULT_CATEGORY = 'General'
 DEFAULT_PAGINATION = 5
-THEME = 'themes/tuxlite_tbs'
+THEME = 'themes/tuxlite_tbs_custom'
 
 OUTPUT_PATH = '.'
 
