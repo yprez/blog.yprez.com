@@ -5,7 +5,7 @@ Running a Bottle app with Gunicorn
 :category: General
 :date: 2012-06-10 14:00
 
-Recently I wrote a simple web tracker at work. Using the `Bottle`_
+Recently I wrote a simple web tracker at work, using the `Bottle`_
 microframework.
 
 Looking back, maybe I should've used `Flask`_ instead, as I simply don't see
