@@ -23,7 +23,7 @@ TAG_FEED = 'feeds/%s.atom.xml'
 DISQUS_SITENAME = 'yprez'
 #GITHUB_URL = 'https://github.com/yprez/blog.yprez.com'
 GOOGLE_ANALYTICS = 'UA-31891245-1'
-CLICKY = '66604001'
+#CLICKY = '66604001'
 
 TWITTER_USERNAME = 'yprez'
 TWITTER_WIDGET = True
