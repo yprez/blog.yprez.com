@@ -3,11 +3,11 @@ Django Bash completion
 
 :tags: django, python, bash
 :category: General
-:date: 2012-08-26 22:00
+:date: 2012-08-03 22:00
 
 A couple of days ago, while browsing the Django repository on Github, I
 discovered the `django_bash_completion`_ script (only took me 2 years to
-find it). Shortly after the `mind=blown` moment, I tested it and was
+find it). Shortly after the `mind=blown` moment I tested it and was
 amazed by the results, or rather by the fact that I never knew it existed,
 although it's referenced in the `docs`_.
 
