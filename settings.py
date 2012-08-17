@@ -17,6 +17,7 @@ SOCIAL = (
     ('Twitter', 'https://twitter.com/yprez'),
     ('LinkedIn', 'http://il.linkedin.com/in/yprez'),
     ('StackOverflow', 'http://stackoverflow.com/users/543561/yuri-prezument'),
+    ('Google+', 'https://plus.google.com/118438459303278412865?rel=author'),
 )
 TAG_FEED = 'feeds/%s.atom.xml'
 
