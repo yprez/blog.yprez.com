@@ -1,6 +1,6 @@
 AUTHOR = u'Yuri Prezument'
 SITENAME = u'Yuri Prezument'
-SITEURL = '/'
+SITEURL = 'http://blog.yprez.com'
 
 TIMEZONE = 'Etc/UTC'
 
