@@ -19,7 +19,7 @@ SOCIAL = (
     ('StackOverflow', 'http://stackoverflow.com/users/543561/yuri-prezument'),
     ('Google+', 'https://plus.google.com/118438459303278412865?rel=author'),
 )
-TAG_FEED = 'feeds/%s.atom.xml'
+TAG_FEED_ATOM = 'feeds/%s.atom.xml'
 
 DISQUS_SITENAME = 'yprez'
 #GITHUB_URL = 'https://github.com/yprez/blog.yprez.com'
@@ -28,3 +28,19 @@ GOOGLE_ANALYTICS = 'UA-31891245-1'
 
 TWITTER_USERNAME = 'yprez'
 TWITTER_WIDGET = False
+
+PLUGINS=['pelican.plugins.sitemap',]
+
+SITEMAP = {
+    'format': 'xml',
+    'priorities': {
+        'articles': 0.8,
+        'indexes': 0.5,
+        'pages': 0.4,
+    },
+    'changefreqs': {
+        'articles': 'monthly',
+        'indexes': 'daily',
+        'pages': 'monthly'
+    }
+}
