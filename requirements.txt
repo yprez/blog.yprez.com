@@ -4,6 +4,6 @@ argparse==1.2.1
 bpython==0.11
 docutils==0.9.1
 feedgenerator==1.2.1
-pelican==2.8.1
+pelican==3.0
 pytz==2012c
 wsgiref==0.1.2
