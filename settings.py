@@ -19,7 +19,7 @@ SOCIAL = (
     ('StackOverflow', 'http://stackoverflow.com/users/543561/yuri-prezument'),
     ('Google+', 'https://plus.google.com/118438459303278412865?rel=author'),
 )
-TAG_FEED = 'feeds/%s.atom.xml'
+TAG_FEED_ATOM = 'feeds/%s.atom.xml'
 
 DISQUS_SITENAME = 'yprez'
 #GITHUB_URL = 'https://github.com/yprez/blog.yprez.com'
