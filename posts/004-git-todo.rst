@@ -5,25 +5,25 @@ Searching code for "TODO" comments with git grep
 :tags: git, grep, todo
 :category: General
 
-My code, like most code, tends to contain TODO/FIXME comments for things
-I don't want to bother with at the time of writing them. Sometimes these
-tend to pile up. A quick method of finding those is `git grep`:
+My code, like most code, tends to contain TODO/FIXME comments for things that
+I don't want to bother with at the time of writing them. Sometimes, these
+tend to pile up. A quick method of finding them is `git grep`:
 
 .. code-block:: bash
 
     $ git grep TODO
 
 
-Today I was looking for "TODO" annotations in an old project,
-and completely missed a couple of FIXMEs due to being too lazy to grep for
-them. This would have caught them:
+Today I was looking for "TODO" annotations in an old project and completely
+missed a couple of FIXMEs due to being too lazy to grep for them.
+This would have caught them:
 
 .. code-block:: bash
 
     $ git grep -e TODO -e FIXME
 
 
-But that's too much typing, so why not make an alias for it?
+But that's too much typing. So why not make an alias for it?
 
 .. code-block:: cfg
 
@@ -40,7 +40,7 @@ And then...
     models.py:38:    # FIXME: remove this method soon
 
 
-Ok, that was fun, back to work...
+Ok, that was fun. Back to work...
 
 **Notes:**
 
