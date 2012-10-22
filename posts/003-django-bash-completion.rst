@@ -7,7 +7,7 @@ Django Bash completion
 
 A couple of days ago, while browsing the Django repository on Github, I
 discovered the `django_bash_completion`_ script (only took me 2 years to
-find it). Shortly after the `mind=blown` moment I tested it and was
+find it). Shortly after the `mind=blown` moment, I tested it and was
 amazed by the results, or rather by the fact that I never knew it existed,
 although it's referenced in the `docs`_.
 
